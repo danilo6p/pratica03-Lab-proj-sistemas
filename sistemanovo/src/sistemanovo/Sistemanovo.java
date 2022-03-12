@@ -29,16 +29,16 @@ public class Sistemanovo {
          op = scanner.nextInt();
 	//cpf, nome, email, senha, endereco residencial, endereco de entrega.
         
-	//while(op != 0){
+           while(op != 0){
 		System.out.println("Bem vindo ao sistema de cadastros de usuários");
-		
-               
+                
+		usuario.setCpf(scanner.nextLine());
+                
+                System.out.println("Digite CPF do usuário:");
+		usuario.setCpf(scanner.nextLine());
                 
                 System.out.println("Digite o nome do usuário:");
 		usuario.setNome(scanner.nextLine());
-                
-                 System.out.println("Digite CPF do usuário:");
-		usuario.setCpf(scanner.nextLine());
 		
 		 System.out.println("Digite E-MAIL:");
 		usuario.setEmail(scanner.nextLine());
@@ -61,7 +61,7 @@ public class Sistemanovo {
 		
 		System.out.println("Digite 1 para cadastrar usuários ou 0 para sair !");
 		op = scanner.nextInt();
-	//}
+	}
 
 
     }
